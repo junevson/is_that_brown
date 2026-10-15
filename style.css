@@ -1,6 +1,6 @@
 /* Style the overall page background and text font */
 body {
-    background-color: #f4f6f9;
+    background-color: #092a3f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333333;
     max-width: 800px;
@@ -11,16 +11,16 @@ body {
 
 /* Style main headings */
 h1 {
-    color: #2c3e50;
-    font-size: 2.5rem;
+    color: #503376;
+    font-size: 6rem;
     margin-bottom: 10px;
 }
 
 /* Style paragraph text */
 p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.6;
-    color: #555555;
+    color: #026360;
 }
 
 /* Style images so they fit nicely */
@@ -35,8 +35,8 @@ img {
 /* Style buttons or links */
 a {
     display: inline-block;
-    background-color: #3498db;
-    color: white;
+    background-color: #4b0e63;
+    color: rgb(71, 164, 201);
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 6px;
