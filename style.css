@@ -15,7 +15,8 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: #503376;
-    font-size: 7rem;
+    white-space: nowrap; /* Prevents the heading from wrapping to the next line */
+    font-size: 7rem; /* Responsive font size that scales between 3.5rem and 7rem based on viewport width */
     margin-bottom: 10px;
 }
 
@@ -23,6 +24,7 @@ h1 {
 @media (max-width: 768px) {
     h1 {
         font-size: 3.5rem; /* Shrinks heading down so it fits better on smaller screens */
+        padding: 10px; /* Adds padding to the heading for better spacing on smaller screens */
     }
 
     body {
