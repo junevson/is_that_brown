@@ -52,7 +52,7 @@ img {
     /* Frame styling */
     border: 4px solid rgb(71, 164, 291); /* Adds a border around the image */
     border-radius: 8px; /* Rounds the corners of the image */
-    box-shadow: o 4px 12px rgba(0, 0, 0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.15);
     margin: 20px 0;
 }
 
