@@ -29,7 +29,7 @@ h1 {
 
     body {
         margin: 0 auto; /* Centers the layout */
-        padding: 25px; /* Reduces padding on smaller screens for better fit */
+        padding: 17px; /* Reduces padding on smaller screens for better fit */
         box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
@@ -46,11 +46,15 @@ p {
 
 /* Style images so they fit nicely */
 img {
+    display: block; /* Ensures the image is treated as a block element */
+    margin-left: auto; /* Centers the image horizontally from the left */
+    margin-right: auto; /* Centers the image horizontally from the right */
+    
     max-width: 100%;
     height: auto;
 
     /* Frame styling */
-    border: 4px solid rgb(71, 164, 291); /* Adds a border around the image */
+    border: 4px solid #eeba5a; /* Adds a border around the image */
     border-radius: 8px; /* Rounds the corners of the image */
     box-shadow: 0 4px 12px rgba(0, 0, 0,0.15);
     margin: 20px 0;
