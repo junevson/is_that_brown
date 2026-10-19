@@ -22,7 +22,7 @@ h1 {
 /* Styles applied ONLY on screens 768px wide or smaller */
 @media (max-width: 768px) {
     h1 {
-        font-size: 3.5rem; /* Shrinks heading down so it fits better on smaller screens */
+        font-size: 3rem; /* Shrinks heading down so it fits better on smaller screens */
     }
 
     body {
