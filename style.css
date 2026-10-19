@@ -5,7 +5,7 @@ body {
     color: #333333;
     width: 100%;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 0 20px;
     text-align: center;
 }
@@ -24,13 +24,13 @@ h1 {
 /* Styles applied ONLY on screens 768px wide or smaller */
 @media (max-width: 768px) {
     h1 {
-        font-size: clamp(2.5rem, 5vw, 5rem); /* Shrinks heading down so it fits better on smaller screens */
+        font-size: clamp(2.7rem, 5vw, 5rem); /* Shrinks heading down so it fits better on smaller screens */
         padding: 1px; /* Adds padding to the heading for better spacing on smaller screens */
     }
 
     body {
         margin: 0 auto; /* Centers the layout */
-        padding: 40px; /* Reduces padding on smaller screens for better fit */
+        padding: 41px; /* Reduces padding on smaller screens for better fit */
         box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
