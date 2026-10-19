@@ -5,8 +5,8 @@ body {
     color: #333333;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 40px auto;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -22,15 +22,17 @@ h1 {
 /* Styles applied ONLY on screens 768px wide or smaller */
 @media (max-width: 768px) {
     h1 {
-        font-size: 3rem; /* Shrinks heading down so it fits better on smaller screens */
+        font-size: 3.5rem; /* Shrinks heading down so it fits better on smaller screens */
     }
 
     body {
+        margin: 0 auto; /* Centers the layout */
         padding: 10px; /* Reduces padding on smaller screens for better fit */
+        box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
     p {
-        font-size: 0.9rem; /* Adjusts paragraph text size for smaller screens */
+        font-size: 0.5rem; /* Adjusts paragraph text size for smaller screens */
     }
 }
 /* Style paragraph text */
