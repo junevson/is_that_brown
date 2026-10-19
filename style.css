@@ -24,12 +24,12 @@ h1 {
 @media (max-width: 768px) {
     h1 {
         font-size: 3.5rem; /* Shrinks heading down so it fits better on smaller screens */
-        padding: 10px; /* Adds padding to the heading for better spacing on smaller screens */
+        padding: 1px; /* Adds padding to the heading for better spacing on smaller screens */
     }
 
     body {
         margin: 0 auto; /* Centers the layout */
-        padding: 10px; /* Reduces padding on smaller screens for better fit */
+        padding: 25px; /* Reduces padding on smaller screens for better fit */
         box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
