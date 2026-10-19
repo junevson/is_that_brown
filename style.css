@@ -29,7 +29,7 @@ h1 {
 
     body {
         margin: 0 auto; /* Centers the layout */
-        padding: 17px; /* Reduces padding on smaller screens for better fit */
+        padding: 30px; /* Reduces padding on smaller screens for better fit */
         box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
