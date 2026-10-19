@@ -23,13 +23,13 @@ h1 {
 /* Styles applied ONLY on screens 768px wide or smaller */
 @media (max-width: 768px) {
     h1 {
-        font-size: 3.5rem; /* Shrinks heading down so it fits better on smaller screens */
+        font-size: 3rem; /* Shrinks heading down so it fits better on smaller screens */
         padding: 1px; /* Adds padding to the heading for better spacing on smaller screens */
     }
 
     body {
         margin: 0 auto; /* Centers the layout */
-        padding: 30px; /* Reduces padding on smaller screens for better fit */
+        padding: 40px; /* Reduces padding on smaller screens for better fit */
         box-sizing: border-box; /* Ensures padding doesn't affect overall width */
     }
 
@@ -54,7 +54,7 @@ img {
     height: auto;
 
     /* Frame styling */
-    border: 4px solid #eeba5a; /* Adds a border around the image */
+    border: 4px solid #15f115; /* Adds a border around the image */
     border-radius: 8px; /* Rounds the corners of the image */
     box-shadow: 0 4px 12px rgba(0, 0, 0,0.15);
     margin: 20px 0;
